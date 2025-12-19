@@ -1,14 +1,9 @@
 // data
 
-const buttonAddition = document.getElementById( 'buttonAddition');
-const buttonSubstraction = document.getElementById( 'buttonSubstraction');
-const buttonMultiply = document.getElementById( 'buttonMultiplication');
-const buttonDivision = document.getElementById( 'buttonDivision');
-
 let inputNumber1 = document.getElementById('input-number-1');
 let inputNumber2 = document.getElementById('input-number-2');
 
-const operationButtons = [buttonAddition, buttonSubstraction, buttonMultiply, buttonDivision]
+const operationButtons = document.getElementsByClassName( 'operation-button')
 
 // logic
 
